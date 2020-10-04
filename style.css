@@ -1,18 +1,8 @@
 
-.container{
-	width: 1200px;
-	height: 50px;
-	display: block;
-	margin: 0;
-}
-
-
 
 .header{
 	display: flex;	
-	padding-top: 60px;
-	padding-left: 50px;
-	padding-bottom: 40px;
+	height: 9vw;
 	background-color: #5B191A;	
 	justify-content: space-around;
 
@@ -20,16 +10,14 @@
 
 .navbar{
 	background-color: black;
-	height: 60px;
-	width: 1180px;
-	padding: 10px;
-
+	height: 2.5vw;
+	font-size: 0.7em;
+	padding-top: 0.6vw;
 }
 
 .link{
-	font-size: 3em;
-	padding: 5px;
-	padding-top: 15px;
+	font-size: 2em;
+	padding: 2vw;
 	text-decoration: none;
 	color: white;
 }
@@ -37,99 +25,297 @@
 .date{
 	display: flex;
 	justify-content: flex-end;
+	padding-right: 2vw;
+}
+
+.first{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+
 }
 
 .news{
 	background-color: #C4C4C4;
+	
 
 }
-
-h2{
-	font-size: 2em;
-	padding: 10px;
-	padding-left: 20px;
-
-}
-
-.firstpicture{
+.title1{
+	color: white;
+	background-color: black;
+	height: 45%;
+	width: 100%;
 	display: flex;
-	flex-shrink: 4;
-	
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	opacity: 0.8;
 
-	
 }
 .firstimage{
-
+	height: 4vw;
+	padding-top: 2vw;
 }
-
-figcaption{
-	background-color: black;
-	color: white;
-	font-size: 2em;
-	margin: 0;
-	height: 120px;
-	display: flex;
-	border: 0;
-	justify-content: center;
-
+.fullstack{
+	height: 5vw;
+	padding-top: 1.5vw;
 }
-
-h3{
-	display: flex;
-	align-items: flex-start;
-}
-.first{
-	padding-right: 100px;
-
-
-}
-
-.banner{
-	display: flex;
-	justify-content: center;
-	padding: 20px;
-}
-
-.lastcontainer{
-	background-color: black;
-	width: 1200px;
-	height: 200px;
-	display: flex;
-	justify-content: flex-end;
-
-}
-
-.lastbar{
-	color: white;
-	text-decoration: none;
-	font-size: 2.5em;
+h2{
+	font-size: 1.5em;
+	padding-left: 1vw;
 	
 }
-
-
-
-#finaltext{
-	color: white;
+.bigdiv{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	flex-flow: wrap;
+	margin-top: 1vw;
+	padding-bottom: 1vw;
+}
+.picture{
+	width: 30%;
+	position: relative;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	flex-direction: column;
 }
-@media screen and (min-width: 481px) and (max-width: 1200px) {
-    #emptyspace{        
-        visibility: hidden;
 
+.picture img{
+	width: 100%;
+	z-index: 1;
+	display: block;	
+}
+.picture_two{
+	display: none
+}
+.second{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+.bigdiv2{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	flex-flow: wrap;
+	margin-top: 1vw;
+}
+.picture2{
+	width: 30%;
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.picture2 img{
+	width: 100%;
+	z-index: 1;
+	display: block;	
+}
+.picture3{
+	display: none;
+}
+.title2{
+	color: white;
+	background-color: black;
+	height: 45%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	opacity: 0.8;
+}
+
+.banner2{
+	display: flex;
+	justify-content: center;
+	height: 20px;
+	padding-top: 2vw;
+}
+
+.third{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+.bigdiv3{
+	width: 89%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	flex-flow: wrap;
+	margin-top: 1vw;
+}
+.subdiv3{
+	width: 89%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	flex-flow: wrap;
+	margin-top: 1vw;
+}
+.picturefour{
+	width: 30%;
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 6vw;
+}
+.picturefour img{
+	width: 100%;
+	z-index: 1;
+	display: block;
+			
+}
+
+.title3{
+	color: white;
+	background-color: black;
+	height: 45%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	opacity: 0.8;
+}
+.lastbanner{
+	align-items: stretch;
+}
+.lastimage{
+	color: white;
+	background-color: black;
+	height: 3vw;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 2vw;
+}
+.finaltext{
+	color: white;
+	background-color: black;
+	margin-top: -20px;
+	height: 7vw;
+	display: flex;
+	justify-content: center;
+	font-size: 1em;
+	
 }
 @media screen and (max-width: 480px) {
-   #emptyspace {
-   		visibility: visible;
-   		display: flex;
-   		justify-content: space-between;
-   		flex-direction: column;
+   .picture{
+   	display: flex;
+   	flex-wrap: wrap;
+   	width: 45%;
+   	padding:  1vw;
+   }
 
-          }
-#emptyspace:{
-	display: flex;
-	align-self: stretch;
+   .navbar{
+   	padding-top: 1vw;
+   	height: 10vw;
+   	font-size: 7px;
+   	display: flex;
+    	justify-content: center;
+    	flex-direction: column;
+    	align-items: center;
+   }
+   .title1{
+   		font-size: 9.5px;
+   }
+   .third{
+   	padding-bottom: 4vw;
+   	align-items: center;
+   }
+   .picture3 {
+        display: list-item;
+        width: 55%;
+       
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		flex-wrap: wrap;
+		padding-top: 2vw;
+		flex-direction: column;
+    }
+    .title3{
+    	font-size: 9.5px;
+    	height: 40%
+    }
+    .picture img{
+    	width: 100%;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+			
+    }
+    .largebanner{
+    	display: none;
+    	flex-
+    }
+    .picture2{
+    	width: 44%;
+    }
+    .picture_two{
+    	display: list-item;
+    	margin: auto;
+    	display: flex;
+    	justify-content: center;
+    	flex-direction: column
+    	padding-left: 4vw;
+    }
+    h3{
+    	font-size: 1em;
+    }
+    .title1{
+    	height: 35%;
+    	font-size: 9.5px;
+    	width: 96%;
+    }
+    .title2{
+    	font-size: 9.5px;
+    }
+    .banner2{
+    	display: none;
+    }
+    .picturefour{
+    	width: 45%;
+    }
+    .finatext{
+    	margin-top: -10px;
+    	font-size: 0.7em;
+    }
+    .lastimage{
+    	height: 8vw;
+    	justify-content: center;
+    }
+    .lastimage img{
 
+    	width: 27%;
+    	padding-bottom: 2vw;
+    }
+    
+    
 }
-	
+
+
+
+
